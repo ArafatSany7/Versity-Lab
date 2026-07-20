@@ -2,7 +2,7 @@
 public class index {
 
     public void showMessage() {
-        System.out.println("Welcome message");
+        System.out.println("Welcomee message");
     }
 
     public double calculateAvarage(int mark1, int mark2, int mark3) {
@@ -12,6 +12,6 @@ public class index {
     public static void main(String[] args) {
         index obj = new index();
         obj.showMessage();
-        System.out.println("Average: " + obj.calculateAvarage(70, 80, 90));
+        System.out.println("Averag5e: " + obj.calculateAvarage(70, 80, 90));
     }
 }
