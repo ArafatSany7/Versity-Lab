@@ -12,6 +12,6 @@ public class index {
     public static void main(String[] args) {
         index obj = new index();
         obj.showMessage();
-        System.out.println("Averag5e: " + obj.calculateAvarage(70, 80, 90));
+        System.out.println("Averag5e: " + obj.calculateAvarage(60, 80, 90));
     }
 }
