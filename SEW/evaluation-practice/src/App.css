@@ -1,0 +1,12 @@
+
+@tailwind utilities;
+
+/* small custom tweaks (use Tailwind utilities where possible) */
+.item-form input:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(59,130,246,0.25);
+}
+
+.shopping-item span.line-through {
+	text-decoration: line-through;
+}

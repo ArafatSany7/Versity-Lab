@@ -42,6 +42,7 @@ class Registration {
     boolean hasScholarship() {
         return scholarship;
     }
+
 }
 
 public class bonus {
