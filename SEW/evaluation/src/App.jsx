@@ -74,7 +74,7 @@ export default function App() {
     <main>
       <h1>Course Selection Viewer</h1>
       <select value={selectedId} onChange={handleCourseChange}>
-        <option value="">Select a coursew</option>
+        <option value="">Select a course</option>
         <CourseOptions courses={courses} />
       </select>
       <CourseDetails course={selectedCourse} />
