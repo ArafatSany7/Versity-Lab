@@ -7,7 +7,7 @@ public class Hospital {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your Pin");
+        System.out.println("Enter you Pin");
         int pin = sc.nextInt();
 
         System.out.println(" Enter your number af attepmts");
